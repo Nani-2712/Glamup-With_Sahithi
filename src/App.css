@@ -529,3 +529,80 @@ footer p {
 .instagram-gallery-link a:hover {
   transform: translateY(-5px);
 }
+@media (max-width: 600px) {
+  section {
+    padding: 70px 6%;
+  }
+
+  .hero {
+    padding: 60px 6%;
+    gap: 30px;
+  }
+
+  .hero-content h1 {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1.05;
+  }
+
+  section h2 {
+    font-size: 32px;
+    letter-spacing: -1px;
+  }
+
+  .hero-text,
+  .about-text p,
+  .booking-text p,
+  .instagram-gallery-link p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .about-points span {
+    font-size: 15px;
+    padding: 14px 16px;
+  }
+
+  .service-card p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .navbar img {
+    width: 150px;
+  }
+
+  .hero-image img {
+    max-width: 260px;
+    height: auto;
+  }
+
+  .award-photo img {
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+  }
+
+  .gallery {
+    columns: 1;
+  }
+
+  .gallery-card img {
+    height: auto;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid a {
+    font-size: 15px;
+    padding: 16px;
+    word-break: break-word;
+  }
+
+  .floating-whatsapp {
+    width: 58px;
+    height: 58px;
+  }
+}
