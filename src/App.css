@@ -30,6 +30,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -601,5 +602,17 @@ footer p {
   .floating-whatsapp {
     width: 58px;
     height: 58px;
+  }
+}@media (max-width: 600px) {
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+
+  .nav-links a {
+    font-size: 14px;
   }
 }
