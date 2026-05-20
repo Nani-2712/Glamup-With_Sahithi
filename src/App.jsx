@@ -63,14 +63,14 @@ function App() {
   const sendBookingToWhatsApp = (e) => {
     e.preventDefault();
 
-    const message = `Hello Glamup With Sahithi,%0A%0AI want to book a bridal slot.%0A%0AName: ${formData.name}%0AWedding Date: ${formData.date}%0ALocation: ${formData.location}%0AFunction Type: ${formData.functionType}`;
+    const message = `Hello Sahithi,%0A%0AI want to book a bridal slot.%0A%0AName: ${formData.name}%0AWedding Date: ${formData.date}%0ALocation: ${formData.location}%0AFunction Type: ${formData.functionType}`;
 
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
 
   const openWhatsApp = () => {
     const message =
-      "Hello Glamup With Sahithi, I want to know more about your makeup services and pricing.";
+      "Hello Sahithi, I want to know more about your makeup services and pricing.";
     window.open(
       `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,
       "_blank"
@@ -106,7 +106,7 @@ function App() {
             </button>
 
             <a href="tel:8106760117" className="secondary-btn">
-              <Phone size={18} /> Direct Call
+              <Phone size={18} />Call Sahithi
             </a>
           </div>
         </div>
@@ -192,11 +192,11 @@ function App() {
       <section id="booking" className="booking">
         <div className="booking-text">
           <p className="section-label">Booking</p>
-          <h2>Book Your Bridal Slot</h2>
-          <p>
-            Fill your details and send them directly to WhatsApp for quick
-            booking enquiry.
-          </p>
+          <h2>Check Availability & Pricing</h2>
+         <p>
+  Share your event details to know availability, pricing and bridal
+  makeup packages.
+</p>
         </div>
 
         <form onSubmit={sendBookingToWhatsApp} className="booking-form">
