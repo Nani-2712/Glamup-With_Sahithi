@@ -135,7 +135,8 @@ html {
   gap: 10px;
   animation: shake 1s infinite;
 }
-/*shake*/
+/*new animation*/
+
 @keyframes shake {
   0%{
     transform:rotate(0deg);
