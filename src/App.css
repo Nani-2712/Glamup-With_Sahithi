@@ -12,7 +12,7 @@ body {
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 
 .site {
@@ -136,7 +136,7 @@ html {
 }
 /*new animation*/
 
-@keyframes shake {
+/* @keyframes shake {
   0%{
     transform:rotate(0deg);
   }
@@ -152,7 +152,7 @@ html {
   100%{
     transform:rotate(0deg);
   }
-}
+} */
 
 .primary-btn {
   background: linear-gradient(to right, #ff4f8b, gold);
@@ -661,11 +661,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
 }
-.hero-image img {
+/* .hero-image img {
 
  animation: floatImage 5s ease-in-out infinite;
 
-}
+} */
 
 
 @keyframes floatImage {
@@ -720,7 +720,7 @@ transform:translateY(0);
 }
 .floating-whatsapp{
 
-animation: whatsappPulse 2s infinite;
+animation: whatsappPulse 3s infinite;
 
 }
 
@@ -732,7 +732,7 @@ transform:scale(1);
 }
 
 50%{
-transform:scale(1.1);
+transform:scale( 1.1);
 }
 
 100%{
